@@ -6,14 +6,16 @@ When you have a hard time, when you are sad, when you are depressed, when you ar
 
 ## Description
 Randum number ( *乱数 Ran-suu* in Japaneses) list generator. Extracts and presents an arbitrary number of numbers from a given range of integers.
+
 [![Image from Gyazo](https://i.gyazo.com/575113de9068e84129c9e8318e6fd02b.gif)](https://gyazo.com/575113de9068e84129c9e8318e6fd02b)
 ## Usage
 standard
 ```
-randum
+rannum
 ```
 
 Most parameters have an initial value. By default, you can enjoy dice 🎲. Wow! Happy! 
+
 [![Image from Gyazo](https://i.gyazo.com/6a9961968ae2082594e32832a77313fd.gif)](https://gyazo.com/6a9961968ae2082594e32832a77313fd)
 
 You don't have to spend a sleepless night if you want a dice with minus 5 to plus 7 and four facing up at the same time. Here's the option to do that.
@@ -22,7 +24,7 @@ You don't have to spend a sleepless night if you want a dice with minus 5 to plu
 rannum -l -5 -u 7 --amount 4 --shuffle
 ```
 
-We all have numbers that remind us of our ex and our lousy boss. Avoiding numbers you don't want to see is the easy way to live in this modern society. Not being conscious of statistics will lead to gaining a grip on people's minds. Enjoy!
+We all have numbers that remind us of our ex-boyfriend's or our lousy boss. Avoiding numbers you don't want to see is the easy way to live in this modern society. Not being conscious of statistics will lead to gaining a grip on people's minds. Enjoy!
 ```
 $ rannum -l 18 -u 40 --exclude "14 16 20 22 25 28 30 34 36 37 38 39 42 50"
 
