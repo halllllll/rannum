@@ -1,0 +1,30 @@
+{
+  "name": "rannum",
+  "version": "1.0.0",
+  "description": "generate random number list.",
+  "main": "./bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rannum": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halllllll/rannum.git"
+  },
+  "keywords": [],
+  "author": "halllllll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/halllllll/rannum/issues"
+  },
+  "homepage": "https://github.com/halllllll/rannum#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "ava": "^2.2.0"
+  }
+}
